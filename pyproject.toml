@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gs-guest-lecture"
+version = "0.1.0"
+description = "Notebook Examples for Galactic Structure Guest Lecture"
+authors = ["Ilija Medan <ilija.medan@vanderbilt.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+galpy = "^1.9.1"
+astropy = "^6.0.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+notebook = "^7.1.0"
+astroquery = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
