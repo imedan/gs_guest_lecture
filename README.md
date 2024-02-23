@@ -19,6 +19,6 @@ Finally, activate the envornment and install the dependencies.
 ```
 conda activate GS_lect
 pip install poetry
-poetry install
+poetry install --no-root
 ```
 Now you should have all of the packages installed to run the notebooks!
